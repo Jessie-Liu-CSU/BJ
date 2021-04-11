@@ -1,0 +1,217 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/jessieliu/Desktop/BlackJack/contracts/BlackJack_Game.sol": {
+      "lastModificationDate": 1618094573875,
+      "contentHash": "598bc0605b706865cc25d0e03520bd4d",
+      "sourceName": "contracts/BlackJack_Game.sol",
+      "solcConfig": {
+        "version": "0.5.1",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./blackjack.sol"
+      ],
+      "versionPragmas": [
+        ">=0.5.0 <0.6.0"
+      ],
+      "artifacts": [
+        "BlackJack_Game"
+      ]
+    },
+    "/Users/jessieliu/Desktop/BlackJack/contracts/blackjack.sol": {
+      "lastModificationDate": 1618099861848,
+      "contentHash": "f21f80652a40a34bd186b0c9ba8dd56d",
+      "sourceName": "contracts/blackjack.sol",
+      "solcConfig": {
+        "version": "0.5.1",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./mortal.sol"
+      ],
+      "versionPragmas": [
+        ">=0.5.0 <0.6.0"
+      ],
+      "artifacts": [
+        "blackjack"
+      ]
+    },
+    "/Users/jessieliu/Desktop/BlackJack/contracts/mortal.sol": {
+      "lastModificationDate": 1618097420756,
+      "contentHash": "7135467a5f61901134b4c6b700c2f45b",
+      "sourceName": "contracts/mortal.sol",
+      "solcConfig": {
+        "version": "0.5.1",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./owned.sol"
+      ],
+      "versionPragmas": [
+        ">=0.5.0 <0.6.0"
+      ],
+      "artifacts": [
+        "mortal"
+      ]
+    },
+    "/Users/jessieliu/Desktop/BlackJack/contracts/owned.sol": {
+      "lastModificationDate": 1618095319410,
+      "contentHash": "298a6fe4e252b682a47c5be0a840d87b",
+      "sourceName": "contracts/owned.sol",
+      "solcConfig": {
+        "version": "0.5.1",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0 <0.6.0"
+      ],
+      "artifacts": [
+        "owned"
+      ]
+    },
+    "/Users/jessieliu/Desktop/BlackJack/contracts/erc721.sol": {
+      "lastModificationDate": 1618093430591,
+      "contentHash": "7155a007b3daf1b2f3b780fc4769c72c",
+      "sourceName": "contracts/erc721.sol",
+      "solcConfig": {
+        "version": "0.5.1",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0 <0.6.0"
+      ],
+      "artifacts": [
+        "ERC721"
+      ]
+    },
+    "/Users/jessieliu/Desktop/BlackJack/contracts/safemath.sol": {
+      "lastModificationDate": 1618093422055,
+      "contentHash": "d389aeacd26877e3954382c22f8a9f6b",
+      "sourceName": "contracts/safemath.sol",
+      "solcConfig": {
+        "version": "0.5.1",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0 <0.6.0"
+      ],
+      "artifacts": [
+        "SafeMath",
+        "SafeMath16",
+        "SafeMath32"
+      ]
+    }
+  }
+}
